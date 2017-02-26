@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- css -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+	<link href="css/ihover.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/material-scrolltop.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/chartist.min.css">
+    <link rel="stylesheet" type="text/css" href="css/charts.css">
+
+
+	<title>My Folls</title>
+
+    <script>
+          $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+    </script>
+
+</head>
+<body>
+ 
+	<!-- NAV BUTTON COLLAPSE -->
+	<nav>
+		<div class="container">
+			<div class="nav-wrapper">
+		    	<a href="#" class="brand-logo">Followers</a>
+		    		<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+		   			<ul id="nav-mobile" class="right hide-on-med-and-down">
+		    		    <li><a href="index.html">Home</a></li>
+		    		    <li><a href="daftarharga.html">Daftar Harga</a></li>
+		    		    <li class="active waves-effect waves-light"><a href="order.html">Order</a></li>
+		    		    <li><a href="riwayattransaksi.html">Riwayat Transaksi</a></li>
+		       			<li><a href="contact.html">Contact</a></li>
+		     		</ul>
+		     		<ul class="side-nav" id="mobile-demo">
+				        <li><a href="index.html">Home</a></li>
+				        <li><a href="daftarharga.html">Daftar Harga</a></li>
+				        <li><a href="order.html">Order</a></li>
+				        <li><a href="riwayattransaksi.html">Riwayat Transaksi</a></li>
+				        <li><a href="contact">Contact</a></li>
+				    </ul>
+   			</div>
+		</div>
+	</nav>
+	<!-- end nav -->
+
+    <!-- parallax -->
+    <div class="parallax-container">
+    <!-- tampilan notifikasi -->
+        <div class="notifikasi">
+            <div class="container">
+               <div class="row">
+                    <div class="col s12 notif"><marquee><p>Admin Telah melakukan Transaksi 100 Followers Instagram Indonesia</p></marquee></div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+
+        <!-- pengguna -->
+    <div class="pengguna">
+        <div class="container">
+            <div class="row">
+                <div class="col s3 tabel-pengguna z-depth-2">
+                    <h5><b>Total Pengguna</b></h5>
+                    <p>1276</p>
+                </div>
+                <div class="col s3 tabel-pengguna z-depth-2">
+                    <h5><b>Total Transaksi</b></h5>
+                    <p>321</p>
+                </div>
+                <div class="col s3 tabel-pengguna z-depth-2">
+                    <h5><b>Saldo Saya</b></h5>
+                    <p>Rp 10.842,-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end tabel -->
+         <div class="parallax"><img src="images/parallax.png"></div>
+    </div>
+
+	
+
+    <!-- (3) JQUERY SLIDER -->
+    <div class="carakerja">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/order1.png">
+                <li>
+                    <img src="images/order2.png">
+                </li>
+                <li>
+                    <img src="images/order3.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+	<!-- JUDUL ORDER -->
+		<div class="judulinfo">
+			<hr>
+				<h4><b>ORDER</b></h4>
+			<hr>
+		</div>
+
+    <!-- FORM ORDER -->
+    <div class="form">
+        <div class="container">
+            <div class="row">
+                    <div class="input-field col s12">
+                        <label>Pilih Layanan</label><br><br>
+                        <select class="js-example-basic-single">
+                            <option>Instagram Followers</option>
+                            <option>Instagram Likes</option>
+                            <option>Instagram Views</option>
+                            <option>Twitter Followers</option>
+                            <option>Twitter Likes</option>
+                            <option>Twitter Retweet</option>
+                        </select>
+                    </div>
+
+
+                    <form id="form" >
+                        <div class="form-order">
+                            <label for="inputUsername">Username</label>
+                            <input type="text" class="form-control" id="inputUsername">
+                        </div>
+                        
+                        <div class="form-order">
+                            <label for="inputjumlah">Jumlah</label>
+                            <input type="text" class="form-control" id="inputjumlah">
+                        </div>
+                        
+                        <button class="btn waves-effect waves-light" type="submit">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </form>
+                </div>
+          </div>
+     </div>
+    <!-- end order-->
+
+
+    <!-- collapsible -->
+    <div class="container">
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">filter_drama</i>About</div>
+                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+            <li>
+                <div class="collapsible-header"><i class="material-icons">place</i>Lokasi</div>
+                <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+            </li>
+        </ul>
+    </div>
+    <!-- end collaps -->    
+
+    <!-- chartist -->
+    <div class="judulinfo">
+            <hr>
+                <h4><b>Statistik Orderan</b></h4>
+            <hr>
+    </div>
+    <div class="container">
+    <div class="statistik">
+        <div class="row">
+            <div class="col s6">
+                <div class="container">
+                    <div class="row">
+                        <div class="ct-chart ct-perfect-fourth"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6">
+                 <div class="row">
+                    <div class="col s12 m9 l10">
+                        <div id="introduction" class="section scrollspy">
+                            <p>Lorem ipsum dolor sit amet </p>
+                        </div>
+
+                        <div id="structure" class="section scrollspy">
+                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+                        </div>
+
+                        <div id="initialization" class="section scrollspy">
+                        <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col hide-on-small-only m3 l2">
+                        <ul class="section table-of-contents">
+                            <li><a href="#introduction">Introduction</a></li>
+                            <li><a href="#structure">Structure</a></li>
+                            <li><a href="#initialization">Intialization</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end  statistik orderan -->
+
+	<!-- Footer -->
+	 <footer class="page-footer footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Followers</h5>
+                <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright footer-bawah">
+            <div class="container">
+            © 2014 Copyright Noval Oktavio
+            </div>
+          </div>
+        </footer>
+
+         <!-- material-scrolltop button -->
+        <button class="material-scrolltop" type="button">
+            <img src="images/up.png">
+        </button>
+	
+  <!-- end JQUERY TAB -->
+        
+
+
+  <!-- js -->
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/javascript.js"></script>
+  <script src="js/submitter.js"></script>
+  <script src="js/material-scrolltop.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/chartist.js"></script>
+  <script src="js/chartist.min.js"></script>
+
+  <script>
+      //scroll to top
+         $('body').materialScrollTop();
+    
+    //parallax
+      $('.parallax').parallax();
+      </script>
+    <script>
+    //chhartist
+    var data = {
+  labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  series: [
+    [5, 4, 3, 7, 5, 10, 3, 4, 8, 10, 6, 8],
+    [3, 2, 9, 5, 4, 6, 4, 6, 7, 8, 7, 4]
+  ]
+};
+
+var options = {
+  seriesBarDistance: 10
+};
+
+var responsiveOptions = [
+  ['screen and (max-width: 640px)', {
+    seriesBarDistance: 5,
+    axisX: {
+      labelInterpolationFnc: function (value) {
+        return value[0];
+      }
+    }
+  }]
+];
+
+new Chartist.Bar('.ct-chart', data, options, responsiveOptions);
+
+$('.scrollspy').scrollSpy();
+
+
+
+  </script>
+ 
+
+
+</body>
+</html>
